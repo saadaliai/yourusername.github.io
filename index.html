@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Ali | Freelance Web Designer & Developer</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 1px solid #334155;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+        header p {
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #334155;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--accent);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 25px;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--text-main);
+        }
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .tag {
+            background-color: #334155;
+            color: var(--accent);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Saad Ali</h1>
+            <p>Freelance Web Designer & UI/UX Developer</p>
+            <p style="color: var(--text-muted); font-size: 1rem; margin-top: 5px;">Karachi, Pakistan</p>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Results-driven and creative Freelance Web Designer with a strong foundation in modern web technologies, enterprise dashboard design, and digital branding. Dedicated to transforming client visions into high-converting, visually compelling web solutions using robust front-end architectures.</p>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Coding Hub</h3>
+                    <p>Designed and engineered a dark-mode enterprise website and admin dashboard with custom layouts, intuitive navigation, and integrated Firebase Authentication and Firestore backend support.</p>
+                </div>
+                <div class="card">
+                    <h3>Ali Finds</h3>
+                    <p>Created professional store logos, promotional brand assets, and digital marketing content for e-commerce affiliate promotions and digital campaigns.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Core Skills</h2>
+            <div class="skills-list">
+                <span class="tag">Web Design</span>
+                <span class="tag">Dark-Mode Architecture</span>
+                <span class="tag">HTML5 / CSS3 / JavaScript</span>
+                <span class="tag">Firebase & Firestore</span>
+                <span class="tag">UI/UX Wireframing</span>
+                <span class="tag">Brand Identity</span>
+                <span class="tag">SEO Optimization</span>
+                <span class="tag">Client Communication</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Saad Ali. Available for freelance projects worldwide.</p>
+        </footer>
+    </div>
+</body>
+</html>
